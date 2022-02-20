@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(`${process.env.MONGODB_URL}/food-generator`, {
+mongoose.connect(process.env.MONGODB_URL, {
   useNewUrlParser: true,
 })
