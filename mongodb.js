@@ -2,7 +2,7 @@
 
 const { MongoClient } = require("mongodb");
 
-const databaseName = "meme-generator";
+const databaseName = "food-generator";
 
 MongoClient.connect(
   process.env.MONGODB_URL,
